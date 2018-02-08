@@ -1,0 +1,126 @@
+#arrow {
+    width: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: inline-block;
+}
+#board {
+    position: absolute;
+}
+
+#container {
+    position: relative;
+    height: 1204px;
+}
+
+#div1 {
+    margin-bottom: 20px;
+}
+
+#gameover {
+    visibility: hidden;
+    }
+
+#play {
+    visibility: visible;
+    }
+    
+#rules {
+    visibility: hidden;
+    width: 750px;
+    height: 700px;
+    left: 227px;
+    top: 300px;
+    }
+    
+#rules-message {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.window-title {
+    padding-top: 40px;
+    font-family: "Times New Roman";
+    font-size: 40px;
+}
+
+.window-text {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+.bottom-txt {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 1204px;
+}
+
+.window {
+    position: absolute;
+    background: #ffffff;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    z-index: 99;
+    width: 500px;
+    height: 300px;
+    top: 500px;
+    left: 352px;
+    text-align: center;
+}
+
+.piece {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+}
+
+.rules_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 40%;
+    height: 40%;
+}
+
+h1 {
+    font-family: "Times New Roman";
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+body {
+    background-image: url(../img/sayagata-400px-1.png);
+}
