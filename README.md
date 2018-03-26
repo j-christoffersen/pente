@@ -1,5 +1,4 @@
 # Pente
-> Automated shift scheduling for small businesses.
 
 ## What is this?
 This is a in-browser playable game of [Pente](https://boardgamegeek.com/boardgame/1295/pente). It was built as a final project for [HarvardX's CS50](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x). This game features an AI opponent built using an minimax algorithm.
